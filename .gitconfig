@@ -1,0 +1,5 @@
+[user]
+	email = lucamamprin@users.noreply.github.com
+	name = luca.mamprin
+[core]
+	excludesfile = /Users/luca.mamprin/.gitignore_global
