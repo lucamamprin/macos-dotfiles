@@ -32,3 +32,10 @@ cd ~/macos-dotfiles
 ./apply-dotfiles.sh
 
 ```
+
+6. Install Homebrew and add packages from `Brewfile`.
+
+```zsh
+cd ~/macos-dotfiles
+./homebrew.sh
+```
