@@ -17,6 +17,8 @@ brew "mkcert"
 brew "nnn"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
 # Internet file retriever
 brew "wget"
 # Local development environment management system
@@ -38,8 +40,6 @@ cask "microsoft-edge"
 cask "sensiblesidebuttons"
 # MySQL/MariaDB database management platform
 cask "sequel-pro"
-# Team communication and collaboration software
-cask "slack"
 # Move and resize windows with ease
 cask "spectacle"
 # Desktop client for Telegram messenger
