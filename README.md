@@ -39,3 +39,11 @@ cd ~/macos-dotfiles
 cd ~/macos-dotfiles
 ./homebrew.sh
 ```
+
+To apply new brew programs, run:
+
+```zsh
+cd ~/macos-dotfiles
+./homebrew-update.sh
+```
+
