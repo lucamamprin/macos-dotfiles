@@ -31,6 +31,8 @@ cask "brave-browser"
 cask "chromium"
 # Web browser
 cask "firefox"
+# Web browser
+cask "google-chrome"
 # Graphically shows disk usage within a file system
 cask "grandperspective"
 # Provides updates to various Microsoft products
