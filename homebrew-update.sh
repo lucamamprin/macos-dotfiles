@@ -1,5 +1,5 @@
 #!/bin/sh
 
-rm ~/macos-dotfiles/Brewfile
+rm ~/macos-dotfiles/dotfiles/Brewfile
 
-brew bundle --file=~/macos-dotfiles/Brewfile
+brew bundle dump --describe --file=~/macos-dotfiles/dotfiles/Brewfile
