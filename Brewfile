@@ -23,3 +23,30 @@ brew "wget"
 brew "drud/ddev/ddev"
 # A youtube-dl fork with additional features and fixes
 brew "yt-dlp/taps/yt-dlp"
+# Web browser focusing on privacy
+cask "brave-browser"
+# Free and open-source web browser
+cask "chromium"
+# Web browser
+cask "firefox"
+# Graphically shows disk usage within a file system
+cask "grandperspective"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
+# Web browser
+cask "microsoft-edge"
+cask "sensiblesidebuttons"
+# MySQL/MariaDB database management platform
+cask "sequel-pro"
+# Team communication and collaboration software
+cask "slack"
+# Move and resize windows with ease
+cask "spectacle"
+# Desktop client for Telegram messenger
+cask "telegram-desktop"
+# To-do list
+cask "todoist"
+# Open-source code editor
+cask "visual-studio-code"
+# Desktop client for WhatsApp
+cask "whatsapp"
