@@ -3,10 +3,16 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "yt-dlp/taps"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
 # Console Matrix
 brew "cmatrix"
+# Test various flash cards
+brew "f3"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Play, record, convert, and stream audio and video
-brew "ffmpeg"
+brew "ffmpeg", link: false
 # GNU utilities for networking
 brew "inetutils"
 # Sophisticated file transfer program
@@ -17,6 +23,8 @@ brew "mkcert"
 brew "nnn"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# File browser
+brew "ranger"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
 # Internet file retriever
