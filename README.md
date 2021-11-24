@@ -46,4 +46,3 @@ To apply new brew programs, run:
 cd ~/macos-dotfiles
 ./homebrew-update.sh
 ```
-
