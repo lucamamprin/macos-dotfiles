@@ -54,3 +54,17 @@ cd ~/macos-dotfiles
 cd ~/macos-dotfiles
 ./homebrew-update.sh
 ```
+
+## Enable Touch ID&copy;&reg;<sup>&trade;</sup> on sudo CLI commands
+
+```zsh
+sudo vim /etc/pam.d/sudo
+```
+
+Add this to the beginning of the file.
+
+**Warning**: Be mindful of the proper indentation.
+
+```zsh
+auth       sufficient     pam_tid.so
+```
