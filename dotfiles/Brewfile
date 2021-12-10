@@ -12,7 +12,7 @@ brew "f3"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Play, record, convert, and stream audio and video
-brew "ffmpeg", link: false
+brew "ffmpeg"
 # GNU utilities for networking
 brew "inetutils"
 # Sophisticated file transfer program
@@ -27,6 +27,8 @@ brew "nss"
 brew "ranger"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Internet file retriever
 brew "wget"
 # Local development environment management system
@@ -37,16 +39,22 @@ brew "yt-dlp/taps/yt-dlp"
 cask "brave-browser"
 # Free and open-source web browser
 cask "chromium"
+# Photography workflow application and raw developer
+cask "darktable"
 # Web browser
 cask "firefox"
 # Web browser
 cask "google-chrome"
 # Graphically shows disk usage within a file system
 cask "grandperspective"
+# File archiver
+cask "keka"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Web browser
 cask "microsoft-edge"
+# Media player based on MPlayer and mplayer2
+cask "mpv"
 cask "sensiblesidebuttons"
 # MySQL/MariaDB database management platform
 cask "sequel-pro"
@@ -56,6 +64,8 @@ cask "spectacle"
 cask "telegram-desktop"
 # To-do list
 cask "todoist"
+# Virtualizer for x86 hardware
+cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
 # Desktop client for WhatsApp
