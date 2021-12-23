@@ -27,6 +27,8 @@ brew "moreutils"
 brew "nnn"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# Manage multiple Node.js versions
+brew "nvm"
 # File browser
 brew "ranger"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -61,6 +63,8 @@ cask "keka"
 cask "microsoft-auto-update"
 # Web browser
 cask "microsoft-edge"
+# Set of tools to create, alter and inspect Matroska files (MKV)
+cask "mkvtoolnix"
 # Media player based on MPlayer and mplayer2
 cask "mpv"
 cask "sensiblesidebuttons"

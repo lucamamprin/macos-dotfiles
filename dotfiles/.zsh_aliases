@@ -57,3 +57,8 @@ alias ddfirsttime="ddev start && ddev auth ssh && ddev composer install && ddev 
 # misc
 alias downloadytplaylist="yt-dlp --ignore-errors --add-metadata --merge-output-format mkv -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'"
 alias downloadytmusicplaylist="yt-dlp -xi --audio-format mp3 --audio-quality mp3  -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'"
+alias archivevideo="yt-dlp --add-metadata --merge-output-format \"mkv\" -f \"bestvideo*+bestaudio/best\" --sub-format \"srt\" --sub-langs \"all\" --write-subs"
+
+# srt and mkv stuff
+alias vtt2srt="for i in *.vtt ; do ffmpeg -i "$i" "${i%.*}.srt" ; done"
+
