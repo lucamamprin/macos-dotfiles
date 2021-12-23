@@ -1,6 +1,8 @@
 tap "drud/ddev"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "yt-dlp/taps"
 # Interpreted, interactive, object-oriented programming language
@@ -19,6 +21,8 @@ brew "inetutils"
 brew "lftp"
 # Simple tool to make locally trusted development certificates
 brew "mkcert"
+# Collection of tools that nobody wrote when UNIX was young
+brew "moreutils"
 # Tiny, lightning fast, feature-packed file manager
 brew "nnn"
 # Libraries for security-enabled client and server applications
@@ -27,6 +31,8 @@ brew "nss"
 brew "ranger"
 # Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Command-line interface for https://speedtest.net bandwidth tests
+brew "speedtest-cli"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Internet file retriever
@@ -45,6 +51,8 @@ cask "darktable"
 cask "firefox"
 # Web browser
 cask "google-chrome"
+# Web browser
+cask "google-chrome-canary"
 # Graphically shows disk usage within a file system
 cask "grandperspective"
 # File archiver
