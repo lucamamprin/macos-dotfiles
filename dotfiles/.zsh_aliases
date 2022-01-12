@@ -28,11 +28,17 @@ alias replace-tde="bash ~/scripts/replace-tde.sh"
 alias testrun="npm run test && npm run test:chrome && npm run test:firefox && npm run test:edge"
 alias testruncypress="cypress run -b firefox --headless && cypress run -b edge --headless"
 alias testruncypresscanary="cypress run -b chromium --headless ; sleep 10 ; cypress run -b chrome:canary --headless ; sleep 10 ; cypress run -b firefox:nightly --headless ; sleep 10 ; cypress run -b edge:canary --headless"
+
+### MEDIA
 alias start-playlist="mpv --no-video --shuffle"
-alias start-lofi="mpv --no-video --shuffle https://www.youtube.com/watch?v=hHW1oY26kxQ"
-alias darksynth="mpv --no-video -shuffle https://www.youtube.com/playlist?list=PLw_PftenZEPeDbbV0FkVY9FqIbW3UBe4p"
-alias synthwave="mpv --no-video --shuffle https://www.youtube.com/playlist?list=PLw_PftenZEPcMLcWZSw4aZMpeftgrFQrD"
-alias sabaton-a-manetta="mpv --no-video --shuffle https://www.youtube.com/playlist?list=PLwV3-RhWZFXcmrUF-L9OZNJmz4bT_gT69"
+alias start-lofi="start-playlist 'https://www.youtube.com/watch?v=hHW1oY26kxQ'"
+alias darksynth="start-playlist 'https://www.youtube.com/playlist?list=PLw_PftenZEPeDbbV0FkVY9FqIbW3UBe4p'"
+alias synthwave="start-playlist 'https://www.youtube.com/playlist?list=PLw_PftenZEPcMLcWZSw4aZMpeftgrFQrD'"
+alias sabaton-a-manetta="start-playlist 'https://www.youtube.com/playlist?list=PLwV3-RhWZFXcmrUF-L9OZNJmz4bT_gT69'"
+alias hatsune="start-playlist 'https://www.youtube.com/playlist?list=PL3V7XAFQ4L4gJmM2-QT1mAOuNg6P0xHol'"
+alias hatsune-waifu="mpv --ontop --shuffle 'https://www.youtube.com/playlist?list=PL3V7XAFQ4L4gJmM2-QT1mAOuNg6P0xHol'"
+
+### Misc tools
 alias scss="sass -s compressed --no-source-map --watch"
 alias lighthouse="lighthouse --view"
 alias video-to-gif="$HOME/scripts/video-to-gif.sh"
