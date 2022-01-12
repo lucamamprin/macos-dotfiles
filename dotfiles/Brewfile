@@ -11,6 +11,8 @@ brew "python@3.9"
 brew "cmatrix"
 # Test various flash cards
 brew "f3"
+# Generate introspection data for GObject libraries
+brew "gobject-introspection"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Play, record, convert, and stream audio and video
@@ -39,16 +41,14 @@ brew "speedtest-cli"
 brew "tree"
 # Internet file retriever
 brew "wget"
-# Local development environment management system
+# Local web development system
 brew "drud/ddev/ddev"
 # A youtube-dl fork with additional features and fixes
-brew "yt-dlp/taps/yt-dlp"
+brew "yt-dlp/taps/yt-dlp", link: false
 # Web browser focusing on privacy
 cask "brave-browser"
 # Free and open-source web browser
 cask "chromium"
-# Photography workflow application and raw developer
-cask "darktable"
 # Web browser
 cask "firefox"
 # Web browser
