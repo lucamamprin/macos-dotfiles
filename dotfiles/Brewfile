@@ -5,18 +5,28 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "yt-dlp/taps"
+# Run your GitHub Actions locally 🚀
+brew "act"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# Core application library for C
+brew "glib"
 # Console Matrix
 brew "cmatrix"
+# Dependency Manager for PHP
+brew "composer", link: false
 # Test various flash cards
 brew "f3"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
 # OpenType text shaping engine
 brew "harfbuzz"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
 # GNU utilities for networking
 brew "inetutils"
 # Sophisticated file transfer program
@@ -31,6 +41,8 @@ brew "nnn"
 brew "nss"
 # Manage multiple Node.js versions
 brew "nvm"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # File browser
 brew "ranger"
 # Static analysis and lint tool, for (ba)sh scripts
@@ -44,11 +56,15 @@ brew "wget"
 # Local web development system
 brew "drud/ddev/ddev"
 # A youtube-dl fork with additional features and fixes
-brew "yt-dlp/taps/yt-dlp", link: false
+brew "yt-dlp/taps/yt-dlp"
+# Memory training application
+cask "anki"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Free and open-source web browser
 cask "chromium"
+# App for building websites
+cask "codekit"
 # Web browser
 cask "firefox"
 # Web browser
@@ -57,8 +73,13 @@ cask "google-chrome"
 cask "google-chrome-canary"
 # Graphically shows disk usage within a file system
 cask "grandperspective"
+# HTTP and GraphQL Client
+cask "insomnia"
 # File archiver
 cask "keka"
+cask "koala"
+# File system integration
+cask "macfuse"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Web browser
@@ -67,6 +88,8 @@ cask "microsoft-edge"
 cask "mkvtoolnix"
 # Media player based on MPlayer and mplayer2
 cask "mpv"
+# Open-source software for live streaming and screen recording
+cask "obs"
 cask "sensiblesidebuttons"
 # MySQL/MariaDB database management platform
 cask "sequel-pro"
