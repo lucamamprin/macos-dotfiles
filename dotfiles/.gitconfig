@@ -3,3 +3,4 @@
 	name = luca.mamprin
 [core]
 	excludesfile = /Users/luca.mamprin/.gitignore_global
+	autocrlf = input
