@@ -41,6 +41,8 @@ brew "nnn"
 brew "nss"
 # Manage multiple Node.js versions
 brew "nvm"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
 # File browser
