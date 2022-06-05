@@ -51,6 +51,8 @@ brew "shellcheck"
 brew "speedtest-cli"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Command-line unarchiving tools supporting multiple formats
+brew "unar"
 # Internet file retriever
 brew "wget"
 # Local web development system
