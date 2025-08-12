@@ -2,32 +2,14 @@
 alias ref="source ~/.zshrc"
 alias ls="ls -G"
 alias ll="ls -lah"
-alias l="ll"
 alias build-all="npm install && composer install && npm run dev"
 alias copy-clipboard="bash ~/scripts/copy-clipboard.sh"
 alias find-text="grep -Rs --exclude-dir={web,public,.idea,vendor,var,node_modules,.git,.github,dist}"
-alias currentyear="cal -y $(date +"%Y")"
 alias assets-sync="$HOME/scripts/assets-sync.sh $HOME/grafiche/"
+
 # Vim aliases
 alias v="vim"
 alias sv="sudo vim"
-# Brew aliases
-alias bs="brew search"
-alias bi="brew install"
-alias bu="brew update"
-alias bcu="brew cask upgrade"
-# Project aliases
-alias symf3build="./bin/console cache:clear && ./bin/console assetic:dump && ./bin/console assets:install web"
-alias symf4build="./app/console cache:clear && ./app/console assetic:dump && ./app/console assets:install web"
-alias catch-all-projects="bash ~/scripts/git-catch-all.sh"
-alias clearcache="bash ~/scripts/clearcache.sh"
-alias get-catch-all-projects="grep "$catchStrReplaced" $catchAllFile"
-alias last-catch-all-projects="grep "$catchStrReplaced" $catchAllFile | tail -1 | sed "s/$catchStrReplaced/$catchStrReplacement/g""
-alias empty-catch-all-projects="cat /dev/null > $catchAllFile"
-alias replace-tde="bash ~/scripts/replace-tde.sh"
-alias testrun="npm run test && npm run test:chrome && npm run test:firefox && npm run test:edge"
-alias testruncypress="cypress run -b firefox --headless && cypress run -b edge --headless"
-alias testruncypresscanary="cypress run -b chromium --headless ; sleep 10 ; cypress run -b chrome:canary --headless ; sleep 10 ; cypress run -b firefox:nightly --headless ; sleep 10 ; cypress run -b edge:canary --headless"
 
 ### MEDIA
 alias start-playlist="mpv --no-video --shuffle"
@@ -39,26 +21,10 @@ alias hatsune="start-playlist 'https://www.youtube.com/playlist?list=PL3V7XAFQ4L
 alias hatsune-waifu="mpv --ontop --shuffle 'https://www.youtube.com/playlist?list=PL3V7XAFQ4L4gJmM2-QT1mAOuNg6P0xHol'"
 
 ### Misc tools
-alias scss="sass -s compressed --no-source-map --watch"
-alias lighthouse="lighthouse --view"
 alias video-to-gif="$HOME/scripts/video-to-gif.sh"
 
 # git
 alias cleangitbranches="$HOME/scripts/prune-git-branches-no-remote.sh"
-
-# nvm
-alias loadnvm="$HOME/scripts/loadnvm.sh"
-
-# ddev stuff
-alias dx="ddev exec"
-alias dxn="dx npm"
-alias dxnj="dx node"
-alias dxc="ddev composer"
-alias clearcache="ddev exec bin/console cache:clear"
-alias schemaupdate="ddev exec bin/console doctrine:schema:update -f"
-alias dbcreate="ddev exec bin/console doctrine:database:create"
-alias migrate="ddev exec bin/console doctrine:migrations:migrate"
-alias ddfirsttime="ddev start && ddev auth ssh && ddev composer install && ddev exec npm install"
 
 # misc
 alias downloadytplaylist="yt-dlp --ignore-errors --add-metadata --merge-output-format mkv --embed-subs --all-subs --format 'bestaudio+bestvideo' -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'"

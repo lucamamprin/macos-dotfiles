@@ -1,6 +1,14 @@
-[user]
-	email = lucamamprin@users.noreply.github.com
-	name = luca.mamprin
-[core]
-	excludesfile = /Users/luca.mamprin/.gitignore_global
-	autocrlf = input
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[includeIf "gitdir:/Users/timber/code/timber/"]
+    path = ~/.gitconfig-timber
+
+[includeIf "gitdir:/Users/timber/code/lucamamprin/"]
+    path = ~/.gitconfig-lucamamprin
+
+[includeIf "gitdir:/Users/timber/code/alex-pagnoni-ip/"]
+    path = ~/.gitconfig-alex-pagnoni-ip

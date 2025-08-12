@@ -31,6 +31,13 @@ cd ~
 git clone git@github.com:lucamamprin/macos-dotfiles.git
 ```
 
+### Create symlink to this project
+
+```zsh
+ln -s /Users/YOUR_USER/path/to/macos-dotfiles /Users/YOUR_USER/macos-dotfiles
+```
+
+
 ### Create symlinks to dotfiles
 
 **Warning**: this will delete the original dotfiles in your `$HOME` directory.
