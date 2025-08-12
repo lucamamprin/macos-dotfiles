@@ -1,54 +1,105 @@
 tap "yt-dlp/taps"
+# Core application library for C
 brew "glib"
+# Console Matrix
 brew "cmatrix"
+# Dependency Manager for PHP
 brew "composer", link: false
+# Test various flash cards
 brew "f3"
+# Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# GitHub command-line tool
 brew "gh"
+# Git extension for versioning large files
 brew "git-lfs"
+# Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# GNU utilities for networking
 brew "inetutils"
+# Simple tool to make locally trusted development certificates
 brew "mkcert"
+# Collection of tools that nobody wrote when UNIX was young
 brew "moreutils"
+# Tiny, lightning fast, feature-packed file manager
 brew "nnn"
+# Libraries for security-enabled client and server applications
 brew "nss"
+# Manage multiple Node.js versions
 brew "nvm"
+# 7-Zip (high compression file archiver) implementation
 brew "p7zip"
+# Interpreted, interactive, object-oriented programming language
 brew "python@3.9"
+# Static analysis and lint tool, for (ba)sh scripts
 brew "shellcheck"
+# Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
+# Open source continuous file synchronization application
 brew "syncthing", restart_service: :changed
+# Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Command-line unarchiving tools supporting multiple formats
 brew "unar"
+# Internet file retriever
 brew "wget"
+# Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Desktop password and login vault
 cask "bitwarden"
+# Photography workflow application and raw developer
 cask "darktable"
+# Voice and text chat software
 cask "discord"
+# Collaborative team software
 cask "figma"
+# Web browser
 cask "firefox"
+# Web browser
 cask "google-chrome"
+# Client for the Google Drive storage service
 cask "google-drive"
+# Graphically shows disk usage within a file system
 cask "grandperspective"
+# HTTP and GraphQL Client
 cask "insomnia"
+# File archiver
 cask "keka"
+# Free and open-source painting and sketching program
 cask "krita"
+# Free cross-platform office suite, stable version recommended for enterprises
 cask "libreoffice-still"
+# Open-source cross-platform alternative to AirDrop
 cask "localsend"
+# File system integration
 cask "macfuse"
+# Provides updates to various Microsoft products
 cask "microsoft-auto-update"
+# Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# Set of tools to create, alter and inspect Matroska files (MKV)
 cask "mkvtoolnix-app"
+# Open-source software for live streaming and screen recording
 cask "obs"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# Utilise mouse side navigation buttons
 cask "sensiblesidebuttons"
+# Media player based on MPlayer and mplayer2
 cask "stolendata-mpv"
+# Desktop client for Telegram messenger
 cask "telegram-desktop"
+# To-do list
 cask "todoist-app"
+# Web browser focusing on security
 cask "tor-browser"
+# Open-source code editor
 cask "visual-studio-code"
+# Native desktop client for WhatsApp
 cask "whatsapp"
 vscode "alefragnani.project-manager"
 vscode "astro-build.astro-vscode"
