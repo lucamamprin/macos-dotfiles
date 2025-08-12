@@ -1,111 +1,57 @@
-tap "drud/ddev"
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-drivers"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "yt-dlp/taps"
-# Run your GitHub Actions locally 🚀
-brew "act"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
-# Core application library for C
 brew "glib"
-# Console Matrix
 brew "cmatrix"
-# Dependency Manager for PHP
 brew "composer", link: false
-# Test various flash cards
 brew "f3"
-# Validating, recursive, caching DNS resolver
-brew "unbound"
-# Generate introspection data for GObject libraries
-brew "gobject-introspection"
-# OpenType text shaping engine
-brew "harfbuzz"
-# Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# Tools and libraries to manipulate images in many formats
+brew "gh"
+brew "git-lfs"
 brew "imagemagick"
-# GNU utilities for networking
 brew "inetutils"
-# Sophisticated file transfer program
-brew "lftp"
-# Simple tool to make locally trusted development certificates
 brew "mkcert"
-# Collection of tools that nobody wrote when UNIX was young
 brew "moreutils"
-# Tiny, lightning fast, feature-packed file manager
 brew "nnn"
-# Libraries for security-enabled client and server applications
 brew "nss"
-# Manage multiple Node.js versions
 brew "nvm"
-# 7-Zip (high compression file archiver) implementation
 brew "p7zip"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
-# File browser
-brew "ranger"
-# Static analysis and lint tool, for (ba)sh scripts
+brew "python@3.9"
 brew "shellcheck"
-# Command-line interface for https://speedtest.net bandwidth tests
 brew "speedtest-cli"
-# Display directories as trees (with optional color/HTML output)
+brew "syncthing", restart_service: :changed
+brew "tmux"
 brew "tree"
-# Command-line unarchiving tools supporting multiple formats
 brew "unar"
-# Internet file retriever
 brew "wget"
-# Local web development system
-brew "drud/ddev/ddev"
-# A youtube-dl fork with additional features and fixes
-brew "yt-dlp/taps/yt-dlp"
-# Memory training application
-cask "anki"
-# Web browser focusing on privacy
-cask "brave-browser"
-# Free and open-source web browser
-cask "chromium"
-# App for building websites
-cask "codekit"
-# Web browser
+brew "yt-dlp"
+cask "bitwarden"
+cask "darktable"
+cask "discord"
+cask "figma"
 cask "firefox"
-# Web browser
 cask "google-chrome"
-# Web browser
-cask "google-chrome-canary"
-# Graphically shows disk usage within a file system
+cask "google-drive"
 cask "grandperspective"
-# HTTP and GraphQL Client
 cask "insomnia"
-# File archiver
 cask "keka"
-cask "koala"
-# File system integration
+cask "krita"
+cask "libreoffice-still"
+cask "localsend"
 cask "macfuse"
-# Provides updates to various Microsoft products
 cask "microsoft-auto-update"
-# Web browser
-cask "microsoft-edge"
-# Set of tools to create, alter and inspect Matroska files (MKV)
-cask "mkvtoolnix"
-# Media player based on MPlayer and mplayer2
-cask "mpv"
-# Open-source software for live streaming and screen recording
+cask "microsoft-teams"
+cask "mkvtoolnix-app"
 cask "obs"
+cask "obsidian"
+cask "rectangle"
 cask "sensiblesidebuttons"
-# MySQL/MariaDB database management platform
-cask "sequel-pro"
-# Move and resize windows with ease
-cask "spectacle"
-# Desktop client for Telegram messenger
+cask "stolendata-mpv"
 cask "telegram-desktop"
-# To-do list
-cask "todoist"
-# Virtualizer for x86 hardware
-cask "virtualbox"
-# Open-source code editor
+cask "todoist-app"
+cask "tor-browser"
 cask "visual-studio-code"
-# Desktop client for WhatsApp
 cask "whatsapp"
+vscode "alefragnani.project-manager"
+vscode "astro-build.astro-vscode"
+vscode "dbaeumer.vscode-eslint"
+vscode "esbenp.prettier-vscode"
+vscode "unifiedjs.vscode-mdx"
