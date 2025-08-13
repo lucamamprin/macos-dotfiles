@@ -47,6 +47,8 @@ brew "unar"
 brew "wget"
 # Feature-rich command-line audio/video downloader
 brew "yt-dlp"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
 # Desktop password and login vault
 cask "bitwarden"
 # Photography workflow application and raw developer
@@ -103,6 +105,8 @@ cask "visual-studio-code"
 cask "whatsapp"
 vscode "alefragnani.project-manager"
 vscode "astro-build.astro-vscode"
+vscode "bradlc.vscode-tailwindcss"
 vscode "dbaeumer.vscode-eslint"
 vscode "esbenp.prettier-vscode"
+vscode "lokalise.i18n-ally"
 vscode "unifiedjs.vscode-mdx"

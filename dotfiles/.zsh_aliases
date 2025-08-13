@@ -1,15 +1,41 @@
 # Common aliases
 alias ref="source ~/.zshrc"
-alias ls="ls -G"
-alias ll="ls -lah"
-alias build-all="npm install && composer install && npm run dev"
 alias copy-clipboard="bash ~/scripts/copy-clipboard.sh"
 alias find-text="grep -Rs --exclude-dir={web,public,.idea,vendor,var,node_modules,.git,.github,dist}"
-alias assets-sync="$HOME/scripts/assets-sync.sh $HOME/grafiche/"
 
 # Vim aliases
 alias v="vim"
 alias sv="sudo vim"
+
+# Editor
+alias vi="vim"
+alias v="vim"
+alias sv="sudo vim"
+
+# ls variants
+alias ls='ls --color=auto'
+alias lsd='ls -d .*'
+alias ll='ls -alhF'
+alias ld="ll -d"
+alias l='ll' # typo :P
+
+# Grep
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# Disk
+alias df="df -h"
+alias du="du -h"
+
+# System
+alias mkdir="mkdir -pv"
+alias rm="rm -vI"
+alias rmdir="rmdir -v"
+alias mv="mv -iv"
+
+# Rsync
+alias rsync="rsync -avh"
 
 ### MEDIA
 alias start-playlist="mpv --no-video --shuffle"
